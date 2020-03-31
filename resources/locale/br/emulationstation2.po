@@ -10,15 +10,15 @@ msgstr ""
 
 #: 
 msgid "extracting update..."
-msgstr "Extraindo Atualizações..."
+msgstr "EXTRAINDO ATUALIZAÇÕES..."
 
 #: 
 msgid "Loading..."
-msgstr "Carregando..."
+msgstr "CARREGANDO..."
 
 #: 
 msgid "Preloading UI"
-msgstr "Carregando interface..."
+msgstr "CARREGANDO INTERFACE..."
 
 #: 
 msgid "GRID SIZE"
@@ -54,55 +54,55 @@ msgstr "OTIMIZAR USO DA VRMAM NAS IMAGENS"
 
 #: 
 msgid "Full"
-msgstr "Completo"
+msgstr "COMPLETO"
 
 #: 
 msgid "Kiosk"
-msgstr "Quiosque"
+msgstr "QUIOSQUE"
 
 #: 
 msgid "Kid"
-msgstr "Criança"
+msgstr "CRIANÇA"
 
 #: 
 msgstr "GAME COLLECTION SETTINGS"
-msgstr "LISTAS PERSONALIZADAS"
+msgstr "CONFIGURAÇÕES DA COLEÇÃO DE JOGO"
 
 #:
-msgstr "CANCEL"
+msgid "CANCEL"
 msgstr "CANCELAR"
 
 #:
 msgid "automatic"
-msgstr "automático"
+msgstr "AUTOMÁTICO"
 
 #: 
 msgid "basic"
-msgstr "básico"
+msgstr "BÁSICO"
 
 #: 
 msgid "detailed"
-msgstr "detalhado"
+msgstr "DETALHADO"
 
 #: 
 msgid "grid"
-msgstr "grade"
+msgstr "GRADE"
 
 #: 
 msgid "fade"
-msgstr "desaparecer"
+msgstr "DESAPARECER"
 
 #: 
 msgid "instant"
-msgstr "instantâneo"
+msgstr "INSTANTÂNEO"
 
 #: 
 msgid "slide"
-msgstr "animado"
+msgstr "ANIMADO"
 
 #: 
 msgid "gridex"
-msgstr "grade detalhada"
+msgstr "GRADE DETALHADA"
 
 #: 
 msgid "ENABLE NAVIGATION SOUNDS"
@@ -146,11 +146,11 @@ msgstr "CRIAR NOVA COLEÇÃO PERSONALIZADA"
 
 #: 
 msgid "New Collection Name"
-msgstr "Novo nome da coleção"
+msgstr "NOVO NOME DA COLEÇÃO"
 
 #: 
 msgid "Loading..."
-msgstr "Carregando..."
+msgstr "CARREGANDO..."
 
 #: 
 msgid "GROUP UNTHEMED CUSTOM COLLECTIONS"
@@ -210,27 +210,27 @@ msgstr "ALEATÓRIO"
 
 #: 
 msgid "Rating"
-msgstr "Avaliação"
+msgstr "AVALIAÇÃO"
 
 #: 
 msgid "Released"
-msgstr "Publicado"
+msgstr "PUBLICADO"
 
 #: 
 msgid "Developer"
-msgstr "Desenvolvido"
+msgstr "DESENVOLVIDO"
 
 #: 
 msgid "Publisher"
-msgstr "Editor"
+msgstr "EDITOR"
 
 #: 
 msgid "Genre"
-msgstr "Gênero"
+msgstr "GÊNERO"
 
 #: 
 msgid "Players"
-msgstr "Jogadores"
+msgstr "JOGADORES"
 
 #: 
 msgid "NO GAMES FOUND - SKIP"
@@ -262,7 +262,7 @@ msgstr "SISTEMA"
 
 #: 
 msgid "subtitle text"
-msgstr "texto de legenda"
+msgstr "TEXTO DE LEGENDA"
 
 #: 
 msgid "INPUT"
@@ -278,12 +278,13 @@ msgstr "PARAR"
 
 #: 
 msgid "stop (progress saved)"
-msgstr "parar (progresso salvo)"
+msgstr "PARAR (PROGRESSO SALVO)"
 
 #: 
 msgid "GAME %i OF %i"
 msgstr "JOGO %i DE %i"
 
+#: 
 msgid "WE CAN'T FIND ANY SYSTEMS!\n"
 "CHECK THAT YOUR PATHS ARE CORRECT IN THE SYSTEMS CONFIGURATION FILE, AND YOUR GAME DIRECTORY HAS AT LEAST ONE GAME WITH THE CORRECT EXTENSION.\n"
 "\n"
@@ -509,7 +510,7 @@ msgstr "AJUSTAR RECOMPENSAS"
 
 #: 
 msgid "RETROACHIEVEMENTS"
-msgstr "RECOMPENSAS"
+msgstr "RETROACHIEVEMENTS"
 
 #: 
 msgid "HARDCORE MODE"
@@ -517,7 +518,7 @@ msgstr "MODO HARDCORE"
 
 #: 
 msgid "USERNAME"
-msgstr "NOME DE USUARIO"
+msgstr "NOME DE USUÁRIO"
 
 #: 
 msgid "PASSWORD"
@@ -569,19 +570,19 @@ msgstr "COMPORTAMENTO DA PROTEÇÃO DE TELA"
 
 #: 
 msgid "dim"
-msgstr "escura"
+msgstr "ESCURA"
 
 #: 
 msgid "black"
-msgstr "preta"
+msgstr "PRETA"
 
 #: 
 msgid "random video"
-msgstr "vídeo aleatório"
+msgstr "VÍDEO ALEATÓRIO"
 
 #: 
 msgid "slideshow"
-msgstr "apresentação de slides"
+msgstr "APRESENTAÇÃO DE SLIDES"
 
 #: 
 msgid "VIDEO SCREENSAVER SETTINGS"
@@ -593,7 +594,7 @@ msgstr "PROTEÇÃO DE TELA EM VÍDEO"
 
 #: 
 msgid "SWAP VIDEO AFTER (SECS)"
-msgstr "TROCAR VÍDEO APÓS (Segundos)"
+msgstr "TROCAR VÍDEO APÓS (SEGUNDOS)"
 
 #: 
 msgid "SHOW GAME INFO ON SCREENSAVER"
@@ -613,7 +614,7 @@ msgstr "ESTICAR VÍDEO DA PROTEÇÃO DE TELA"
 
 #: 
 msgid "SLIDESHOW SCREENSAVER SETTINGS"
-msgstr "CONFIGURR EXIBIÇÃO DO SLIDE NA PROTEÇÃO DE TELA"
+msgstr "CONFIGURAR EXIBIÇÃO DO SLIDE NA PROTEÇÃO DE TELA"
 
 #: 
 msgid "SLIDESHOW SCREENSAVER"
@@ -653,7 +654,7 @@ msgstr "MOSTRAR TAXA DE QUADROS"
 
 #: 
 msgid "THREADED LOADING"
-msgstr "LOADING EM LINHA"
+msgstr "CARREGAMENTO SEGMENTADO"
 
 #: 
 msgid "COMPLETE QUIT MENU"
@@ -665,39 +666,39 @@ msgstr "NÍVEL DE LOG"
 
 #: 
 msgid "enabled"
-msgstr "ativado"
+msgstr "ATIVADO"
 
 #: 
 msgid "enable"
-msgstr "ativado"
+msgstr "ATIVADO"
 
 #: 
 msgid "disabled"
-msgstr "desativado"
+msgstr "DESATIVADO"
 
 #: 
 msgid "disable"
-msgstr "desativado"
+msgstr "DESATIVADO"
 
 #: 
 msgid "default"
-msgstr "padrão"
+msgstr "PADRÃO"
 
 #: 
 msgid "warning"
-msgstr "atenção"
+msgstr "ATENÇÃO"
 
 #: 
 msgid "error"
-msgstr "erro"
+msgstr "ERRO"
 
 #: 
 msgid "debug"
-msgstr "depurar"
+msgstr "DEPURAR"
 
 #: 
 msgid "enhanced"
-msgstr "melhorado"
+msgstr "MELHORADO"
 
 #: 
 msgid "ON-SCREEN HELP"
@@ -709,7 +710,7 @@ msgstr "ESCONDER AO EXECUTAR O JOGO"
 
 #: 
 msgid "QUICK SYSTEM SELECT"
-msgstr "SELEÇÃO RAPIDA DE SISTEMA"
+msgstr "SELEÇÃO RÁPIDA DE SISTEMA"
 
 #: 
 msgid "THEME"
@@ -737,12 +738,11 @@ msgstr "ATIVAR APENAS PASTA DE MÚSICA ESPECÍFICA DO SISTEMA"
 
 #: 
 msgid "PLAY THEME MUSICS"
-msgstr "ATIVAR MÚSICAS TEMÁTICAS"
-
+msgstr "ATIVAR MÚSICAS DO TEMA"
 
 #: 
 msgid "OUTPUT DEVICE"
-msgstr "DISPOSITIVO DE SAIDA"
+msgstr "DISPOSITIVO DE SAÍDA"
 
 #: 
 msgid "HDMI"
@@ -754,11 +754,11 @@ msgstr "JACK"
 
 #: 
 msgid "AUTO"
-msgstr "AUTO"
+msgstr "AUTOMÁTICO"
 
 #: 
 msgid "NETWORK SETTINGS"
-msgstr "OPÇÕES DE RED"
+msgstr "OPÇÕES DE REDE"
 
 #: 
 msgid "CONNECTED"
@@ -778,7 +778,7 @@ msgstr "ENDEREÇO ​​DE IP"
 
 #: 
 msgid "HOSTNAME"
-msgstr "NOME DO HOST"
+msgstr "NOME DO ANFITRIÃO"
 
 #: 
 msgid "ENABLE WIFI"
@@ -866,11 +866,11 @@ msgstr "DESLIGAR WINDOWS"
 
 #: 
 msgid "Emulator"
-msgstr "Emulador"
+msgstr "EMULADOR"
 
 #: 
 msgid "Core"
-msgstr "Núcleo"
+msgstr "NÚCLEO"
 
 #: 
 msgid "YOU ARE GOING TO CONFIGURE A CONTROLLER. IF YOU HAVE ONLY ONE JOYSTICK, CONFIGURE THE DIRECTIONS KEYS AND SKIP JOYSTICK CONFIG BY HOLDING A BUTTON. IF YOU DO NOT HAVE A SPECIAL KEY FOR HOTKEY, CHOOSE THE SELECT BUTTON. SKIP ALL BUTTONS YOU DO NOT HAVE BY HOLDING A KEY. BUTTONS NAMES ARE BASED ON THE SNES CONTROLLER."
@@ -888,7 +888,7 @@ msgstr "CONTROLE PAREADO"
 
 #: 
 msgid "UNABLE TO PAIR CONTROLLER"
-msgstr "NÃO FOI POSSIVEL PAREAR ESSE CONTROLE"
+msgstr "NÃO FOI POSSÍVEL PAREAR ESSE CONTROLE"
 
 #: 
 msgid "AN ERROR OCCURED"
@@ -1012,107 +1012,107 @@ msgstr "NENHUMA ATUALIZAÇÃO DISPONÍVEL"
 
 #: 
 msgid "enter emulator"
-msgstr "entrar no emulador"
+msgstr "INSIRAO EMULADOR"
 
 #: 
 msgid "enter core"
-msgstr "entrar no núcleo"
+msgstr "INSIRA O NÚCLEO"
 
 #: 
 msgid "Ratio"
-msgstr "Taxa"
+msgstr "TAXA"
 
 #: 
 msgid "enter ratio"
-msgstr "entrar na taxa"
+msgstr "INSIRA A TAXA"
 
 #: 
 msgid "Name"
-msgstr "Nome"
+msgstr "NOME"
 
 #: 
 msgid "enter game name"
-msgstr "digite o nome do jogo"
+msgstr "INSIRA O NOME DO JOGO"
 
 #: 
 msgid "Description"
-msgstr "Descrição"
+msgstr "DESCRIÇÃO"
 
 #: 
 msgid "enter description"
-msgstr "insira a descrição"
+msgstr "INSIRA A DESCRIÇÃO"
 
 #: 
 msgid "Image"
-msgstr "Imagem"
+msgstr "IMAGEM"
 
 #: 
 msgid "enter path to image"
-msgstr "insira o caminho para a imagem"
+msgstr "INSIRA O CAMINHO PARA A IMAGEM"
 
 #: 
 msgid "Thumbnail"
-msgstr "Miniatura"
+msgstr "MINIATURA"
 
 #: 
 msgid "enter path to thumbnail"
-msgstr "insira o caminho para a miniatura"
+msgstr "INSIRA O CAMINHO PARA A MINIATURA"
 
 #: 
 msgid "enter rating"
-msgstr "insira a classificação"
+msgstr "INSIRA A AVALIAÇÃO"
 
 #: 
 msgid "Release date"
-msgstr "Data de lançamento"
+msgstr "DATA DE LANÇAMENTO"
 
 #: 
 msgid "enter release date"
-msgstr "insira a data de lançamento"
+msgstr "INSIRA A DATA DE LANÇAMENTO"
 
 #: 
 msgid "enter game developer"
-msgstr "entrar em desenvolvedor de jogos"
+msgstr "INSIRA A DESENVOLVEDORA DO JOGO"
 
 #: 
 msgid "enter game publisher"
-msgstr "entrar na editora de jogos"
+msgstr "INSIRA A PUBLICADORA DO JOGO"
 
 #: 
 msgid "enter game genre"
-msgstr "entrar no gênero de jogo"
+msgstr "INSIRA O GÊNERO DE JOGO"
 
 #: 
 msgid "enter number of players"
-msgstr "insira o número de jogadores"
+msgstr "INSIRA O NÚMERO DE JOGADORES"
 
 #: 
 msgid "Favorite"
-msgstr "Favorito"
+msgstr "FAVORITO"
 
 #: 
 msgid "enter favorite"
-msgstr "entrar nos favoritos"
+msgstr "INSIRA NOS FAVORITOS"
 
 #: 
 msgid "Region"
-msgstr "Região"
+msgstr "REGIÃO"
 
 #: 
 msgid "enter region"
-msgstr "entrar na região"
+msgstr "INSIRA A REGIÃO"
 
 #: 
 msgid "Romtype"
-msgstr "Tipo de rom"
+msgstr "TIPO DE ROM"
 
 #: 
 msgid "enter romtype"
-msgstr "entrar em tipo de rom"
+msgstr "INSIRA O TIPO DE ROM"
 
 #: 
 msgid "Hidden"
-msgstr "Oculto"
+msgstr "OCULTO"
 
 #: 
 msgid "HIDDEN"
@@ -1132,23 +1132,23 @@ msgstr "FAVORITO"
 
 #: 
 msgid "set hidden"
-msgstr "conjunto oculto"
+msgstr "CONJUNTO OCULTO"
 
 #: 
 msgid "Play count"
-msgstr "Contagem de jogos"
+msgstr "CONTAGEM DE JOGOS"
 
 #: 
 msgid "enter number of times played"
-msgstr "insira o número de vezes que jogou"
+msgstr "INSIRA O NÚMERO DE VEZES QUE JOGOU"
 
 #: 
 msgid "Last played"
-msgstr "Último jogado"
+msgstr "ÚLTIMA PARTIDA"
 
 #: 
 msgid "enter last played date"
-msgstr "insira a última data reproduzida"
+msgstr "INSIRA A ÚLTIMA PARTIDA JOGADA"
 
 #: 
 msgid "%i GAME AVAILABLE"
@@ -1174,7 +1174,7 @@ msgstr "INICIAR"
 
 #: 
 msgid "Times played"
-msgstr "Vezes jogado"
+msgstr "VEZES JOGADO"
 
 #: 
 msgid "MENU"
@@ -1212,39 +1212,51 @@ msgstr "ÚLT. PARTIDA"
 msgid "LAST PLAYED, DESCENDING"
 msgstr "ÚLT. PARTIDA"
 
+#: 
 msgid "NUMBER PLAYERS, ASCENDING"
 msgstr "NÚMERO DE JOGADORES"
 
+#: 
 msgid "NUMBER PLAYERS, DESCENDING"
 msgstr "NÚMERO DE JOGADORES"
 
+#: 
 msgid "RELEASE DATE, ASCENDING"
 msgstr "LANÇAMENTO"
 
+#: 
 msgid "RELEASE DATE, DESCENDING"
 msgstr "LANÇAMENTO"
 
+#: 
 msgid "GENRE, ASCENDING"
 msgstr "GÊNERO"
 
+#: 
 msgid "GENRE, DESCENDING"
 msgstr "GÊNERO"
 
+#: 
 msgid "DEVELOPER, ASCENDING"
 msgstr "DESENVOLVEDOR"
 
+#: 
 msgid "DEVELOPER, DESCENDING"
 msgstr "DESENVOLVEDOR"
 
+#: 
 msgid "PUBLISHER, ASCENDING"
 msgstr "PUBLICADOR"
 
+#: 
 msgid "PUBLISHER, DESCENDING"
 msgstr "PUBLICADOR"
 
+#: 
 msgid "SYSTEM, ASCENDING"
 msgstr "SISTEMA"
 
+#: 
 msgid "SYSTEM, DESCENDING"
 msgstr "SISTEMA"
 
@@ -1258,47 +1270,47 @@ msgstr "MUDAR"
 
 #: 
 msgid "start & end"
-msgstr "início e fim"
+msgstr "INÍCIO E FIM"
 
 #: 
 msgid "always"
-msgstr "sempre"
+msgstr "SEMPRE"
 
 #: 
 msgid "never"
-msgstr "nunca"
+msgstr "NUNCA"
 
 #: 
 msgid "just now"
-msgstr "agora"
+msgstr "AGORA"
 
 #: 
 msgid "%i sec ago"
 msgid_plural "%i secs ago"
-msgid "%i segundo atrás"
-msgid_plural "%i segundos atrás"
+msgid "%i SEGUNDO ATRÁS"
+msgid_plural "%i SEGUNDOS ATRÁS"
 
 #: 
 msgid "%i min ago"
 msgid_plural "%i mins ago"
-msgstr[0] "%i minuto atrás"
-msgstr[1] "%i minutos atrás"
+msgstr[0] "%i MINUTO ATRÁS"
+msgstr[1] "%i MINUTOS ATRÁS"
 
 #: 
 msgid "%i hour ago"
 msgid_plural "%i hours ago"
-msgid "%i hora atrás"
-msgid_plural "%i horas atrás"
+msgid "%i HORA ATRÁS"
+msgid_plural "%i HORAS ATRÁS"
 
 #: 
 msgid "%i day ago"
 msgid_plural "%i days ago"
-msgid "%i dia atrás"
-msgid_plural "%i dias atrás"
+msgid "%i DIA ATRÁS"
+msgid_plural "%i DIAS ATRÁS"
 
 #: 
 msgid "unknown"
-msgstr "desconhecido"
+msgstr "DESCONHECIDO"
 
 #: 
 msgid "SELECT ALL"
@@ -1336,7 +1348,7 @@ msgstr "JOYSTICK 1 CIMA"
 
 #: 
 msgid "JOYSTICK 1 LEFT"
-msgstr "JOYSTICK 1  ESQUERDA"
+msgstr "JOYSTICK 1 ESQUERDA"
 
 #: 
 msgid "JOYSTICK 2 UP"
@@ -1370,7 +1382,6 @@ msgstr "TECLADO"
 msgid "GAMEPAD %i"
 msgstr "JOYSTICK %i"
 
-#. Config controllers missing translation
 #: 
 msgid "PRESS ANYTHING"
 msgstr "PRESSIONE QUALQUER BOTÃO"
@@ -1389,7 +1400,7 @@ msgstr "BEM-VINDO"
 
 #: 
 msgid "CONFIGURE INPUT"
-msgstr "CONFIGUÇÃO DE CONTROLE"
+msgstr "CONFIGURAÇÃO DE CONTROLE"
 
 #: 
 msgid "%i GAMEPAD DETECTED"
@@ -1431,7 +1442,7 @@ msgstr "VOCÊ REALMENTE QUER DESLIGAR SEM SALVAR AS INFORMAÇÕES?"
  
 #: 
 msgid "FAST SHUTDOWN SYSTEM"
-msgstr "DESLIGAMENTE RÁPIDO DO SISTEMA"
+msgstr "DESLIGAMENTO RÁPIDO DO SISTEMA"
 
 #: 
 msgid "WE CAN'T FIND ANY SYSTEMS!\n"
@@ -1457,7 +1468,7 @@ msgstr "ESPAÇO"
 
 #: 
 msgid "DELETE A CHAR"
-msgstr "APAGAR UM CARACTER"
+msgstr "APAGAR UM CARACTERE"
 
 #: 
 msgid "SHIFT"
@@ -1505,7 +1516,7 @@ msgstr "DESENVOLVEDORA"
 
 #: 
 msgid "GENRE"
-msgstr "GÉNERO"
+msgstr "GÊNERO"
 
 #: 
 msgid "SHOW HIDDEN"
@@ -1581,7 +1592,7 @@ msgstr "O modo Hardcore desativa as funções * all * savestate e rewind dentro 
 
 #: 
 msgid "The website retroachievements.org proposes challenges/achievements/trophies on platforms like NES, SNES, GB, GBC, GBA, Genesis/Megadrive, TurboGrafx16/PCEngine and more! Create your account on retroachievements.org and start your quest for achievements!"
-msgstr "O website retroachievements.org propõe desafios / conquistas / troféus em plataformas como NES, SNES, GB, GBC, GBA, Gênesis / Megadrive, TurboGrafx16 / PCEngine e mais! Crie sua conta no retroachievements.org e comece sua busca por conquistas!"
+msgstr "O website retroachievements.org propõe desafios / conquistas / troféus em plataformas como NES, SNES, GB, GBC, GBA, Megadrive, TurboGrafx16 / PCEngine e mais! Crie sua conta no retroachievements.org e comece sua busca por conquistas!"
 
 #: 
 msgid "Add and configure up to 5 controllers."
@@ -1650,7 +1661,7 @@ msgstr "Esta opção permite que você configure o sistema selecionado no modo f
 
 #: 
 msgid "Always display the basic gamelist view, even if you have scraped your games."
-msgstr "Sempre exiba a visão básica do gamelist, mesmo que você tenha raspado seus jogos."
+msgstr "Sempre exibe a visão básica da lista de jogo, mesmo que você tenha raspado seus jogos."
 
 #: 
 msgid "Enable or disable Kodi, customize the Kodi startup, enable the X button to start Kodi"
@@ -1702,7 +1713,7 @@ msgstr "CONFIGURAÇÕES AVANÇADAS"
 
 #: 
 msgid "BOOT SETTINGS"
-msgstr "PARÁMETROS DE INICIO"
+msgstr "PARÂMETROS DE INICIALIZAÇÃO"
 
 #: 
 msgid "GAMELIST ONLY"
@@ -1750,7 +1761,7 @@ msgstr "VERSÃO ATUALIZADA:"
 
 #: 
 msgid "UPDATE CHANGELOG:"
-msgstr "RELATÓRIO DA ATUALIÇÃO:"
+msgstr "RELATÓRIO DA ATUALIZAÇÃO:"
 
 #: 
 msgid "MORE DETAILS"
@@ -1778,7 +1789,7 @@ msgstr "ÍCONES DO TEMA"
 
 #: 
 msgid "THEME MENU"
-msgstr "MENÚ TEMA"
+msgstr "MENU TEMA"
 
 #: 
 msgid "THEME SYSTEMVIEW"
@@ -1854,7 +1865,7 @@ msgstr "Configurar opções de tema, se disponíveis."
 
 #: 
 msgid "Select Region of logos, pictures for system that are different for some countries. E.g. Megadrive in EU / Genesis in US"
-msgstr "Selecione Região de logotipos, imagens para sistema diferentes para alguns países. Por exemplo, E.g. Megadrive em EU / Genesis em US"
+msgstr "Selecione Região de logotipos, imagens para sistema diferentes para alguns países. Por exemplo, Megadrive em EU / Genesis em US"
 
 #: 
 msgid "Type the name of your SSID if it is hidden or not listed"
@@ -2038,7 +2049,7 @@ msgstr "HASH DE ROMS"
 
 #: 
 msgid "Only missing hashs"
-msgstr "Apenas faltando hashs"
+msgstr "APENAS FALTANDO HASHS"
 
 #: 
 msgid "USERNAME"
@@ -2046,55 +2057,55 @@ msgstr "NOME DE USUÁRIO"
 
 #: 
 msgid "Country"
-msgstr "País"
+msgstr "PAÍS"
 
 #: 
 msgid "Latency"
-msgstr "Latencia"
+msgstr "LATÊNCIA"
 
 #: 
 msgid "Host arch."
-msgstr "Arqu. do anfitrião"
+msgstr "ARQU. DO ANFITRIÃO"
 
 #: 
 msgid "Core ver."
-msgstr "Ver. de núcleo"
+msgstr "VER. DE NÚCLEO"
 
 #: 
 msgid "RA ver."
-msgstr "Ver. de RA"
+msgstr "VER. DE RA"
 
 #: 
 msgid "Can join"
-msgstr "Pode juntar"
+msgstr "PODE JUNTAR"
 
 #: 
 msgid "Rom and core match"
-msgstr "Coincidência de rom e núcleo"
+msgstr "COINCIDÊNCIA DE ROM E NÚCLEO"
 
 #: 
 msgid "Rom found"
-msgstr "Rom encontrado"
+msgstr "ROM ENCONTRADO"
 
 #: 
 msgid "No rom match"
-msgstr "Não á coincidência de rom"
+msgstr "NÃO Á COINCIDÊNCIA DE ROM"
 
 #: 
 msgid "Match"
-msgstr "Coincide"
+msgstr "COINCIDE"
 
 #: 
 msgid "No Match"
-msgstr "Não há coincidência"
+msgstr "NÃO HÁ COINCIDÊNCIA"
 
 #: 
 msgid "Rom file"
-msgstr "Arquivo rom"
+msgstr "ARQUIVO ROM"
 
 #: 
 msgid "Rom hash"
-msgstr "Hash da rom"
+msgstr "HASH DA ROM"
 
 #: 
 msgid "THIS COULD TAKE A WHILE, CONFIRM?"
@@ -2102,15 +2113,15 @@ msgstr "ISSO PODE DEMORAR UM POUCO, CONFIRMAR?"
 
 #: 
 msgid "bueno"
-msgstr "bom"
+msgstr "BOM"
 
 #: 
 msgid "bad"
-msgstr "ruim"
+msgstr "RUIM"
 
 #: 
 msgid "medium"
-msgstr "médio"
+msgstr "MÉDIO"
 
 #: 
 msgid "NETPLAY POPUP DURATION"
@@ -2118,31 +2129,31 @@ msgstr "DURAÇÃO DO POPUP NO JOGO EM REDE"
 
 #: 
 msgid "Set duration of netplay popups, 0 means no popup."
-msgstr "Definir a duração dos pop-ups dp jogo em rede, 0 significa que não há pop-ups."
+msgstr "DEFINIR A DURAÇÃO DOS POP-UPS DP JOGO EM REDE, 0 SIGNIFICA QUE NÃO HÁ POP-UPS."
 
 #: 
 msgid "Player"
-msgstr "Jogador"
+msgstr "JOGADOR"
 
 #: 
 msgid "Game"
-msgstr "Jogo"
+msgstr "JOGO"
 
 #: 
 msgid "Play online on games running through Retroarch like NES, SNES, FBA, Genesis/Megadrive and more!"
-msgstr "Jogue online em jogos que rodam em Retroarch como NES, SNES, FBA, Megadrive e muito mais!"
+msgstr "JOGUE ONLINE EM JOGOS QUE RODAM EM RETROARCH COMO NES, SNES, FBA, MEGADRIVE E MUITO MAIS!"
 
 #: 
 msgid "Rom, hash and core match"
-msgstr "Rom, hash e coincidência de núcleo"
+msgstr "ROM, HASH E COINCIDÊNCIA DE NÚCLEO"
 
 #: 
 msgid "No core match"
-msgstr "Não á coincidência de núcleo"
+msgstr "NÃO Á COINCIDÊNCIA DE NÚCLEO"
 
 #: 
-Add a clock in the main menu.
-Adicione um relógio no menu principal
+msgid "Add a clock in the main menu."
+msgstr "ADICIONE UM RELÓGIO NO MENU PRINCIPAL"
 
 msgid "SHOW CLOCK"
 msgstr "ATIVAR RELÓGIO"
@@ -2157,100 +2168,95 @@ msgstr "PREPARANDO"
 
 #:
 msgid "Starting UI"
-msgstr "Iniciando interface"
+msgstr "INICIANDO INTERFACE"
 
 #:
 msgid "VERIFYING"
 msgstr "VERIFICANDO"
 
-#:
+#: 
 msgid "EMPTY LIST"
 msgstr "LISTA VAZIA"
 
-
-#: Retroarch ratio
+#: 
 msgid "Auto"
-msgstr "Automático"
+msgstr "AUTOMÁTICO"
 
 #:
 msgid "Square pixel"
-msgstr "Pixel Quadrado"
+msgstr "PIXEL QUADRADO"
 
 #:
 msgid "Square pixel"
-msgstr "Pixel quadrado"
+msgstr "PIXEL QUADRADO"
 
 #:
 msgid "Retroarch Config"
-msgstr "Configuração do Retroarch'"
+msgstr "CONFIGURAÇÃO DO RETROARCH'"
 
 #:
 msgid "Retroarch Custom"
-msgstr "Personalização do Retroarch'"
+msgstr "PERSONALIZAÇÃO DO RETROARCH'"
 
 #:
 msgid "Core provided"
-msgstr "Núcleo provido"
+msgstr "NÚCLEO PROVIDO"
 
 #:
 msgid "Do not set"
-msgstr "Não definir"
+msgstr "NÃO DEFINIR"
 
 #:
 msgid "description"
-msgstr "descrição"
+msgstr "DESCRIÇÃO"
 
 #:
 msgid "core"
-msgstr "núcleo"
+msgstr "NÚCLEO"
 
 #:
 msgid "image"
-msgstr "imagem"
+msgstr "IMAGEM"
 
 #:
 msgid "video"
-msgstr "vídeo"
+msgstr "VÍDEO"
 
 #:
 msgid "marquee"
-msgstr "letreiro"
+msgstr "LETREIRO"
 
 #:
 msgid "thumbnail"
-msgstr "miniatura"
+msgstr "MINIATURA"
 
 #:
 msgid "RESET"
 msgstr "RESTAURAR"
 
 #:
-msgid "CANCEL"
-msgstr "CANCELAR"
-
-#:
 msgid "release date"
-msgstr "lançamento"
+msgstr "LANÇAMENTO"
 
 #:
 msgid "publisher"
-msgstr "publicador"
+msgstr "PUBLICADOR"
 
 #:
 msgid "players"
-msgstr "jogadores"
+msgstr "JOGADORES"
 
 #:
 msgid "kidgame"
-msgstr "infantil"
+msgstr "INFANTIL"
 
 #:
 msgid "arcade system"
-msgstr "sistema arcade"
+msgstr "SISTEMA ARCADE"
 
 #:
 msgid "enter arcade system name"
-msgstr "entrar com nome do sistema arcade"
+msgstr "ENTRAR COM NOME DO SISTEMA ARCADE"
 
 #:
 msgid "SAVE CHANGES ?"
@@ -2363,6 +2369,7 @@ msgstr "SELECT"
 #:
 msgid "BUTTON A"
 msgstr "BOTÃO A"
+
 #:
 msgid "BUTTON B"
 msgstr "BOTÃO B"

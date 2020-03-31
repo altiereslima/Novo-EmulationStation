@@ -22,7 +22,7 @@ branches:
 environment:
   _LINK_: /FORCE:MULTIPLE
   auth_token:
-    secure: w2Fy1b7WaFpDL113DC4qCDv9KiR3qRQoednBvANlbZcIS1CwMjnEVyWTTPEXvGCa
+    secure: GD4WDgZNSJbgDsGTWHvZ4aMzd9sQRxOQfxTX2JNLpwHBxOkuCRy7einhFl2hbjtW
   matrix:
     - prepare_mode: YES
     - prepare_mode: NO
