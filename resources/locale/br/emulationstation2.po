@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
 "Project-Id-Version: recalbox-emulationstation\n"
-"Language: BR Traduzido por JTulho_LTDA\n"
+"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: 
@@ -68,11 +68,11 @@ msgstr "CRIANÇA"
 msgstr "GAME COLLECTION SETTINGS"
 msgstr "CONFIGURAÇÕES DA COLEÇÃO DE JOGO"
 
-#:
+#: 
 msgid "CANCEL"
 msgstr "CANCELAR"
 
-#:
+#: 
 msgid "automatic"
 msgstr "AUTOMÁTICO"
 
@@ -548,7 +548,7 @@ msgstr "CONFIGURAR INTERFACE"
 msgid "OVERSCAN"
 msgstr "OVERSCAN"
 
-#:
+#: 
 msgid "LAUNCH SCREENSAVER"
 msgstr "INICIAR PROTEÇÃO DE TELA"
 
@@ -1262,7 +1262,7 @@ msgstr "SISTEMA"
 
 #: 
 msgid "WORKING..."
-msgstr "TRABALHANDO..."
+msgstr "EM PROGRESSO..."
 
 #: 
 msgid "CHANGE"
@@ -1287,8 +1287,8 @@ msgstr "AGORA"
 #: 
 msgid "%i sec ago"
 msgid_plural "%i secs ago"
-msgid "%i SEGUNDO ATRÁS"
-msgid_plural "%i SEGUNDOS ATRÁS"
+msgstr[0] "%i SEGUNDO ATRÁS"
+msgstr[1] "%i SEGUNDOS ATRÁS"
 
 #: 
 msgid "%i min ago"
@@ -1299,14 +1299,14 @@ msgstr[1] "%i MINUTOS ATRÁS"
 #: 
 msgid "%i hour ago"
 msgid_plural "%i hours ago"
-msgid "%i HORA ATRÁS"
-msgid_plural "%i HORAS ATRÁS"
+msgstr[0] "%i HORA ATRÁS"
+msgstr[1] "%i HORAS ATRÁS"
 
 #: 
 msgid "%i day ago"
 msgid_plural "%i days ago"
-msgid "%i DIA ATRÁS"
-msgid_plural "%i DIAS ATRÁS"
+msgstr[0] "%i DIA ATRÁS"
+msgstr[1] "%i DIAS ATRÁS"
 
 #: 
 msgid "unknown"
@@ -1554,7 +1554,7 @@ msgstr "Iniciar KODI"
 msgid "Select the language for your recalbox, select an external drive to store your games and configurations, check your current version and the free space on your drive"
 msgstr "Selecione o idioma para o seu recalbox, selecione uma unidade externa para armazenar seus jogos e configurações, verifique sua versão atual e o espaço livre em sua unidade"
 
-#:
+#: 
 msgid "Configure games display, ratio, filters (shaders), auto save and load and retroachievement account."
 msgstr "Configurar exibição de jogos, taxa, filtros (shaders), auto salvar e carregar e conta retroachievement."
 
@@ -2037,7 +2037,7 @@ msgstr "MANTENHA HASH"
 
 #: 
 msgid "HASH THESE SYSTEMS"
-msgstr "CRIE HASH DESTES SISTEMAS"
+msgstr "CRIAR HASH DESTES SISTEMAS"
 
 #: 
 msgid "Add hash of roms in your gamelists to have more accurate results in Netplay."
@@ -2069,11 +2069,11 @@ msgstr "ARQU. DO ANFITRIÃO"
 
 #: 
 msgid "Core ver."
-msgstr "VER. DE NÚCLEO"
+msgstr "VER. DO NÚCLEO"
 
 #: 
 msgid "RA ver."
-msgstr "VER. DE RA"
+msgstr "VER. DO RA"
 
 #: 
 msgid "Can join"
@@ -2158,19 +2158,19 @@ msgstr "ADICIONE UM RELÓGIO NO MENU PRINCIPAL"
 msgid "SHOW CLOCK"
 msgstr "ATIVAR RELÓGIO"
 
-#:
+#: 
 msgid "UPGRADING"
 msgstr "ATUALIZANDO"
 
-#:
+#: 
 msgid "PREPARING"
 msgstr "PREPARANDO"
 
-#:
+#: 
 msgid "Starting UI"
 msgstr "INICIANDO INTERFACE"
 
-#:
+#: 
 msgid "VERIFYING"
 msgstr "VERIFICANDO"
 
@@ -2178,278 +2178,279 @@ msgstr "VERIFICANDO"
 msgid "EMPTY LIST"
 msgstr "LISTA VAZIA"
 
-#: 
+
+#: Retroarch ratio
 msgid "Auto"
 msgstr "AUTOMÁTICO"
 
-#:
+#: 
 msgid "Square pixel"
 msgstr "PIXEL QUADRADO"
 
-#:
+#: 
 msgid "Square pixel"
 msgstr "PIXEL QUADRADO"
 
-#:
+#: 
 msgid "Retroarch Config"
 msgstr "CONFIGURAÇÃO DO RETROARCH'"
 
-#:
+#: 
 msgid "Retroarch Custom"
 msgstr "PERSONALIZAÇÃO DO RETROARCH'"
 
-#:
+#: 
 msgid "Core provided"
 msgstr "NÚCLEO PROVIDO"
 
-#:
+#: 
 msgid "Do not set"
 msgstr "NÃO DEFINIR"
 
-#:
+#: 
 msgid "description"
 msgstr "DESCRIÇÃO"
 
-#:
+#: 
 msgid "core"
 msgstr "NÚCLEO"
 
-#:
+#: 
 msgid "image"
 msgstr "IMAGEM"
 
-#:
+#: 
 msgid "video"
 msgstr "VÍDEO"
 
-#:
+#: 
 msgid "marquee"
 msgstr "LETREIRO"
 
-#:
+#: 
 msgid "thumbnail"
 msgstr "MINIATURA"
 
-#:
+#: 
 msgid "RESET"
 msgstr "RESTAURAR"
 
-#:
+#: 
 msgid "release date"
 msgstr "LANÇAMENTO"
 
-#:
+#: 
 msgid "publisher"
 msgstr "PUBLICADOR"
 
-#:
+#: 
 msgid "players"
 msgstr "JOGADORES"
 
-#:
+#: 
 msgid "kidgame"
 msgstr "INFANTIL"
 
-#:
+#: 
 msgid "arcade system"
 msgstr "SISTEMA ARCADE"
 
-#:
+#: 
 msgid "enter arcade system name"
 msgstr "ENTRAR COM NOME DO SISTEMA ARCADE"
 
-#:
+#: 
 msgid "SAVE CHANGES ?"
 msgstr "SALVAR MUDANÇAS?"
 
-#:
+#: 
 msgid "OPTIONS"
 msgstr "OPÇÕES"
 
-#:
+#: 
 msgid "JUMP TO..."
 msgstr "PULAR PARA..."
 
-#:
+#: 
 msgid "SHOW FOLDERS"
 msgstr "MOSTRAR PASTAS..."
 
-#:
+#: 
 msgid "ADD/REMOVE GAMES TO THIS GAME COLLECTION"
 msgstr "ADICIONAR/REMOVER JOGOS DESTA COLEÇÃO"
 
-#:
+#: 
 msgid "VISIBLE SYSTEMS"
 msgstr "SISTEMAS VISÍVEIS"
 
-#:
+#: 
 msgid "COMPLETE QUIT MENU"
 msgstr "MENU SAIR COMPLETO"
 
-#:
+#: 
 msgid "FINISH EDITING"
 msgstr "CONCLUIR EDIÇÃO"
 
-#:
+#: 
 msgid "COLLECTION"
 msgstr "COLEÇÃO"
 
-#:
+#: 
 msgid "FILTER GAMES BY TEXT"
 msgstr "FILTRAR JOGO POR TEXTO"
 
-#:
+#: 
 msgid "THIS FUNCTION IS DISABLED WHEN SCRAPING IS RUNNING"
 msgstr "ESTA FUNÇÃO ESTÁ DESATIVADA ENQUANTO ESTIVER OBTENDO INFORMAÇÕES"
 
-#:
+#: 
 msgid "THE \"RANDOM VIDEO\" SCREENSAVER SHOWS VIDEOS FROM YOUR GAMELIST.\nIF YOU DON'T HAVE VIDEOS, OR IF NONE OF THEM CAN BE PLAYED AFTER A FEW ATTEMPTS, IT WILL DEFAULT TO \"BLACK\".\nMORE OPTIONS IN THE \"UI SETTINGS\" -> \"RANDOM VIDEO SCREENSAVER SETTINGS\" MENU."
 msgstr "A PROTEÇÃO DE TELA \"VÍDEO ALEATÓRIO\" EXIBE VÍDEOS DA SUA LISTA DE JOGO.\n\nSE VOCÊ NÃO TEM VÍDEOS, OU SE DEPOIS DE VÁRIAS TENTATIVAS CONSECUTIVAS OS JOGOS SELECIONADOS NÃO TIVEREM VÍDEOS, A TELA FICARÁ PRETA.\n\nMAIS OPÇÕES NO MENU \"CONFIGURAR INTERFACE\" > \"CONFIGURAR PROTEÇÃO DE TELA\"."
 
-#:
+#: 
 msgid "SHOW FILENAMES IN LISTS"
 msgstr "MOSTRAR NOMES DE ARQUIVOS NAS LISTAS"
 
-#:
+#: 
 msgid "ARE YOU SURE YOU WANT TO CONFIGURE INPUT?"
 msgstr "TEM CERTEZA QUE DESEJA CONFIGURAR O CONTROLE?"
 
-#:
+#: 
 msgid "PRESS ESC TO CANCEL."
 msgstr "APERTE ESC PARA CANCELAR."
 
-#:
+#: 
 msgid "HOLD ANY BUTTON TO SKIP"
 msgstr "SEGURE QUALQUER BOTÃO PARA PULAR"
 
-#:
+#: 
 msgid "GAMEPAD "
 msgstr "CONTROLE "
 
-#:
+#: 
 msgid "-NOT DEFINED-"
 msgstr "NÃO DEFINIDO-"
 
-#:
+#: 
 msgid "YOU DIDN'T CHOOSE A HOTKEY ENABLE BUTTON. THIS IS REQUIRED FOR EXITING GAMES WITH A CONTROLLER. DO YOU WANT TO USE THE SELECT BUTTON DEFAULT ? PLEASE ANSWER YES TO USE SELECT OR NO TO NOT SET A HOTKEY ENABLE BUTTON."
 msgstr "VOCÊ NÃO ESCOLHEU UM BOTÃO DE ATIVAR A TECLA CHAVE. ISSO É NECESSÁRIO PARA SAIR DOS JOGOS COM O CONTROLE. VOCÊ QUER USAR O PADRÃO DO BOTÃO DE SELEÇÃO? POR FAVOR, RESPONDA SIM PARA UTILIZAR OU NÃO PARA DEFINIR UM BOTÃO DE ATIVAR A TECLA CHAVE."
 
-#:
+#: 
 msgid "HOLD FOR "
 msgstr "SEGURE PARA"
 
-#:
+#: 
 msgid "PRESS ANYTHING"
 msgstr "PRESSIONE QUALQUER COISA"
 
-#:
+#: 
 msgid "D-PAD UP"
 msgstr "D-PAD CIMA"
 
-#:
+#: 
 msgid "D-PAD DOWN"
 msgstr "D-PAD BAIXO"
 
-#:
+#: 
 msgid "D-PAD LEFT"
 msgstr "D-PAD ESQUERDO"
 
-#:
+#: 
 msgid "D-PAD RIGHT"
 msgstr "D-PAD DIREITO"
 
-#:
+#: 
 msgid "START"
 msgstr "START"
 
-#:
+#: 
 msgid "SELECT"
 msgstr "SELECT"
 
-#:
+#: 
 msgid "BUTTON A"
 msgstr "BOTÃO A"
 
-#:
+#: 
 msgid "BUTTON B"
 msgstr "BOTÃO B"
 
-#:
+#: 
 msgid "BUTTON X"
 msgstr "BOTÃO X"
 
-#:
+#: 
 msgid "BUTTON Y"
 msgstr "BOTÃO Y"
 
-#:
+#: 
 msgid "LEFT SHOULDER"
 msgstr "OMBRO ESQUERDO"
 
-#:
+#: 
 msgid "RIGHT SHOULDER"
 msgstr "OMBRO DIREITO"
 
-#:
+#: 
 msgid "LEFT TRIGGER"
 msgstr "GATILHO ESQUERDO"
 
-#:
+#: 
 msgid "RIGHT TRIGGER"
 msgstr "GATILHO DIREITO"
 
-#:
+#: 
 msgid "LEFT THUMB"
 msgstr "POLEGAR ESQUERDO"
 
-#:
+#: 
 msgid "RIGHT THUMB"
 msgstr "POLEGAR DIREITO"
 
-#:
+#: 
 msgid "LEFT ANALOG UP"
 msgstr "ANALÓGICO ESQ. CIMA"
 
-#:
+#: 
 msgid "LEFT ANALOG DOWN"
 msgstr "ANALÓGICO ESQ. BAIXO"
 
-#:
+#: 
 msgid "LEFT ANALOG LEFT"
 msgstr "ANALÓGICO ESQ. ESQUERDA"
 
-#:
+#: 
 msgid "LEFT ANALOG RIGHT"
 msgstr "ANALÓGICO ESQ. DIREITA"
 
-#:
+#: 
 msgid "RIGHT ANALOG UP"
 msgstr "ANALÓGICO DIR. CIMA"
 
-#:
+#: 
 msgid "RIGHT ANALOG DOWN"
 msgstr "ANALÓGICO DIR. BAIXO"
 
-#:
+#: 
 msgid "RIGHT ANALOG LEFT"
 msgstr "ANALÓGICO DIR. ESQUERDA"
 
-#:
+#: 
 msgid "RIGHT ANALOG RIGHT"
 msgstr "ANALÓGICO DIR. DIREITA"
 
-#:
+#: 
 msgid "HOTKEY ENABLE"
 msgstr "ATIVAR TECLA CHAVE"
 
-#:
+#: 
 msgid "Configuring device "
 msgstr "CONFIGURANDO DISPOSITIVO"
 
-#:
+#: 
 msgid "Mapping "
 msgstr "MAPEANDO "
 
-#:
+#: 
 msgid "Already mapped!"
 msgstr "JÁ MAPEADO!"
