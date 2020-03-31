@@ -147,9 +147,9 @@ on_finish:
 #platform:
 #  - Any CPU
 
-#configuration:
+configuration:
 #  - Debug
-#  - Release
+  - Release
 
 matrix:
   fast_finish: true
