@@ -38,7 +38,7 @@ msgstr "MODO DE INTERFACE"
 
 #: 
 msgid "PRELOAD UI"
-msgstr "PRÉ-CARREGAR INTERFACE"
+msgstr "PRÉ-CARREGAMENTO DA INTERFACE"
 
 #: 
 msgid "VSYNC"
@@ -83,6 +83,7 @@ msgstr "BÁSICO"
 #: 
 msgid "detailed"
 msgstr "DETALHADO"
+
 
 #: 
 msgid "grid"
@@ -430,7 +431,7 @@ msgstr "INSTALADOR DE TEMAS"
 
 #: 
 msgid "SELECT THEME TO INSTALL"
-msgstr "SELECIONE O TEMA PARA INSTALAR"
+msgstr "TEMA PARA INSTALAR"
 
 #: 
 msgid "AUTO UPDATES"
@@ -662,7 +663,7 @@ msgstr "MENU DE SAÍDA COMPLETO"
 
 #: 
 msgid "LOG LEVEL"
-msgstr "NÍVEL DE LOG"
+msgstr "NÍVEL DE RELATÓRIO"
 
 #: 
 msgid "enabled"
@@ -1159,7 +1160,7 @@ msgid "%i GAMES AVAILABLE"
 msgstr "%i ITENS DISPONÍVEIS"
 
 #: 
-msgid "%i FAVORITES"
+msgid "%i FAVORITE"
 msgid_plural "%i FAVORITES"
 msgstr[0] "%i FAVORITO"
 msgstr[1] "%i FAVORITOS"
@@ -1525,6 +1526,11 @@ msgstr "MOSTRAR OCULTADO"
 #: 
 msgid "EXTREM (1400Mhz)"
 msgstr "EXTREMO (1400MHz)"
+
+#: 
+msgid ""
+"Show how much space is used on your SHARE partition, located either on the SDCARD or on an external drive. The information shows how much GB are used and how much GB your storage has overall (example 13GB/26GB)."
+msgstr "Mostra quanto espaço é usado na sua partição SHARE, localizada no SDCARD ou em uma unidade externa. As informações mostram quantos GB são usados e quantos GB seu armazenamento tem no geral (Exemplo: 13 GB/26 GB)."
 
 #: 
 msgid "TURBO (1350Mhz)"
@@ -1972,7 +1978,7 @@ msgid "TOP/RIGHT"
 msgstr "CIMA/DIREITA"
 
 #: 
-msgid "INFERIOR/DERECHA"
+msgid "BOTTOM/RIGHT"
 msgstr "BAIXO/DIREITA"
 
 #: 
@@ -2208,7 +2214,7 @@ msgid "Do not set"
 msgstr "NÃO DEFINIR"
 
 #: 
-msgid "description"
+msgid "DESCRIPTION"
 msgstr "DESCRIÇÃO"
 
 #: 
@@ -2216,11 +2222,11 @@ msgid "core"
 msgstr "NÚCLEO"
 
 #: 
-msgid "image"
+msgid "IMAGE"
 msgstr "IMAGEM"
 
 #: 
-msgid "video"
+msgid "VIDEO"
 msgstr "VÍDEO"
 
 #: 
@@ -2228,7 +2234,7 @@ msgid "marquee"
 msgstr "LETREIRO"
 
 #: 
-msgid "thumbnail"
+msgid "THUMBNAIL"
 msgstr "MINIATURA"
 
 #: 
@@ -2236,23 +2242,23 @@ msgid "RESET"
 msgstr "RESTAURAR"
 
 #: 
-msgid "release date"
+msgid "RELEASE DATE"
 msgstr "LANÇAMENTO"
 
 #: 
-msgid "publisher"
+msgid "PUBLISHER"
 msgstr "PUBLICADOR"
 
 #: 
-msgid "players"
+msgid "PLAYERS"
 msgstr "JOGADORES"
 
 #: 
-msgid "kidgame"
+msgid "KIDGAME"
 msgstr "INFANTIL"
 
 #: 
-msgid "arcade system"
+msgid "ARCADE SYSTEM"
 msgstr "SISTEMA ARCADE"
 
 #: 
@@ -2269,7 +2275,7 @@ msgstr "OPÇÕES"
 
 #: 
 msgid "JUMP TO..."
-msgstr "PULAR PARA..."
+msgstr "PULAR PARA A LETRA..."
 
 #: 
 msgid "SHOW FOLDERS"
@@ -2454,3 +2460,176 @@ msgstr "MAPEANDO "
 #: 
 msgid "Already mapped!"
 msgstr "JÁ MAPEADO!"
+
+#: 
+msgid "SHOW FAVORITES ON TOP"
+msgstr "MOSTRAR FAVORITOS NO TOPO"
+
+#: 
+msgid "PREFERED IMAGE SOURCE"
+msgstr "FONTE DE IMAGEM PREFERIDA"
+
+#: 
+msgid "PREFERED THUMBNAIL SOURCE"
+msgstr "FONTE DE MINIATURA PREFERIDA"
+
+#: 
+msgid "'%s' ADDED TO DOWNLOAD QUEUE"
+msgstr "'%s' ADICIONADO A FILA DE DOWNLOAD"
+
+#: 
+msgid "SCRAPE MARQUEE"
+msgstr "OBTER LETREIRO"
+
+#: 
+msgid "DOWNLOADING"
+msgstr "BAIXANDO"
+
+
+#: 
+msgid "GROUPED SYSTEMS"
+msgstr "SISTEMAS AGRUPADOS"
+
+#: 
+msgid "THEME INSTALLED SUCCESSFULLY"
+msgstr "TEMA INSTALADO COM SUCESSO"
+
+#: 
+msgid "Downloading"
+msgstr "BAIXANDO"
+
+#: 
+msgid "Extracting"
+msgstr "EXTRAINDO"
+
+#: 
+msgid "Only missing medias"
+msgstr "SÓ FALTANDO MÍDIAS"
+
+#: 
+msgid "SHOW GAME NAME"
+msgstr "MOSTRAR NOME DO JOGO"
+
+#: 
+msgid "USE OMX PLAYER FOR SCREENSAVER"
+msgstr "USAR OMX PLAYER NA PROTEÇÃO DE TELA"
+
+#: 
+msgid "This collection is empty"
+msgstr "ESTA COLEÇÃO ESTÁ VAZIA"
+
+#: 
+msgid "None"
+msgstr "NENHUM"
+
+#: 
+msgid "Various"
+msgstr "VÁRIOS"
+
+#: 
+msgid "among other titles."
+msgstr "ENTRE OUTROS TÍTULOS."
+
+#: 
+msgid "This collection contains"
+msgstr "ESTA COLEÇÃO CONTÉM"
+
+#: 
+msgid "games, including"
+msgstr "JOGOS, INCLUINDO"
+
+#: 
+msgid "NO"
+msgstr "NÃO"
+
+#: 
+msgid "go back"
+msgstr "VOLTAR"
+
+#: 
+msgid "THEME SET"
+msgstr "DEFINIR TEMA"
+
+#: 
+msgid "RESTART EMULATIONSTATION"
+msgstr "REINICIAR O EMULATIONSTATION"
+
+#: 
+msgid "APPLY UPDATE"
+msgstr "APLICAR ATUALIZAÇÃO"
+
+#: 
+msgid "GAMES AVAILABLE"
+msgstr "JOGOS DISPONÍVEIS"
+
+#: 
+msgid "TIMES PLAYED"
+msgstr "VEZES JOGADO"
+
+#: 
+msgid "Username"
+msgstr "NOME DE USUÁRIO"
+
+#: 
+msgid "good"
+msgstr "BOM"
+
+#: 
+msgid "LOWER MUSIC WHEN PLAYING VIDEO"
+msgstr "BAXAR MÚSICA QUANDO TOCAR VÍDEO"
+
+#: 
+msgid "BOX 2D"
+msgstr "CAIXA 2D"
+
+#: 
+msgid "BOX 3D"
+msgstr "CAIXA 3D"
+
+#: 
+msgid "BOX 3D"
+msgstr "CAIXA 3D"
+
+#: 
+msgid "TITLE SCREENSHOT"
+msgstr "TELA DE TÍTULO"
+
+#: 
+msgid "SCREENSHOT"
+msgstr "CAPTURA DE TELA"
+
+#: 
+msgid "WHEEL"
+msgstr "RODA"
+
+#: 
+msgid "MARQUEE"
+msgstr "LETREIRO"
+
+#: 
+msgid "SCRAPING IS RUNNING. DO YOU WANT TO STOP IT ?"
+msgstr "A OBTENÇÃO DE DADOS ESTÁ EM EXECUÇÃO. DEJESA PARAR?"
+
+#: 
+msgid "DEFAULT"
+msgstr "PADRÃO"
+
+#: 
+msgid "Configured scraper is no longer available.\nPlease change the scraping source in the settings."
+msgstr "A OBTENÇÃO DE DADOS NÃO ESTÁ MAIS DISPONÍVEL.\nALTERE A FONTE DA OBTENÇÃO NAS CONFIGURAÇÕES."
+
+#: 
+msgid "AN ERROR HAS OCCURED"
+msgstr "OCORREU UM ERRO"
+
+#: 
+msgid "having multiple games"
+msgstr "TENDO VÁRIOS JOGOS"
+
+#: 
+msgid "PUBLISHER / DEVELOPER"
+msgstr "PUBLICADOR / DESENVOLVEDOR"
+
+#: 
+msgid "FILTER GAMELIST BY"
+msgstr "FILTRAR LISTA DE JOGO POR"
