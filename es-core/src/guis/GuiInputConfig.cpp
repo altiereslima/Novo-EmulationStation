@@ -24,10 +24,10 @@ static const InputConfigStructure GUI_INPUT_CONFIG_LIST[inputCount] =
 	{ "Right",            false, "D-PAD RIGHT",        ":/help/dpad_right.svg" },
 	{ "Start",            true,  "START",              ":/help/button_start.svg" },
 	{ "Select",           true,  "SELECT",             ":/help/button_select.svg" },
-	{ "A",                false, "BUTTON A",    ":/help/button_a.svg" },
-	{ "B",                true,  "BUTTON B",   ":/help/button_b.svg" },
-	{ "X",                true,  "BUTTON X",   ":/help/button_x.svg" },
-	{ "Y",                true,  "BUTTON Y",    ":/help/button_y.svg" },
+	{ "A",                false, "BUTTON A / EAST",    ":/help/buttons_east.svg" },
+	{ "B",                true,  "BUTTON B / SOUTH",   ":/help/buttons_south.svg" },
+	{ "X",                true,  "BUTTON X / NORTH",   ":/help/buttons_north.svg" },
+	{ "Y",                true,  "BUTTON Y / WEST",    ":/help/buttons_west.svg" },
 	{ "LeftShoulder",     true,  "LEFT SHOULDER",      ":/help/button_l.svg" },
 	{ "RightShoulder",    true,  "RIGHT SHOULDER",     ":/help/button_r.svg" },
 	{ "LeftTrigger",      true,  "LEFT TRIGGER",       ":/help/button_lt.svg" },
@@ -141,8 +141,9 @@ GuiInputConfig::GuiInputConfig(Window* window, InputConfig* target, bool reconfi
 				return false;
 			}
 
-			// apply filtering for quirks related to trigger mapping
-			if(filterTrigger(input, config, i))
+
+			// filter for input quirks specific to Sony DualShock 3
+			if(filterTrigger(input, config))
 				return false;
 
 			// we are configuring
@@ -344,7 +345,7 @@ void GuiInputConfig::clearAssignment(int inputId)
 	mTargetConfig->unmapInput(GUI_INPUT_CONFIG_LIST[inputId].name);
 }
 
-bool GuiInputConfig::filterTrigger(Input input, InputConfig* config, int inputId)
+bool GuiInputConfig::filterTrigger(Input input, InputConfig* config)
 {
 #if defined(__linux__)
 	// on Linux, some gamepads return both an analog axis and a digital button for the trigger;
@@ -360,33 +361,12 @@ bool GuiInputConfig::filterTrigger(Input input, InputConfig* config, int inputId
 	  ) && InputManager::getInstance()->getAxisCountByDevice(config->getDeviceId()) == 6)
 	{
 		// digital triggers are unwanted
-		if(input.type == TYPE_BUTTON && (input.id == 6 || input.id == 7))
-		{
-			mHoldingInput = false;
+		if (input.type == TYPE_BUTTON && (input.id == 6 || input.id == 7))
 			return true;
-		}
-	}
-
-	// ignore negative pole for axes 2/5 only when triggers are being configured
-	if(input.type == TYPE_AXIS && (input.id == 2 || input.id == 5))
-	{
-		if(strstr(GUI_INPUT_CONFIG_LIST[inputId].name, "Trigger") != NULL)
-		{
-			if(input.value == 1)
-				mSkipAxis = true;
-			else if(input.value == -1)
-				return true;
-		}
-		else if(mSkipAxis)
-		{
-			mSkipAxis = false;
+		// ignore analog values < 0
+		if (input.type == TYPE_AXIS && (input.id == 2 || input.id == 5) && input.value < 0)
 			return true;
-		}
 	}
-#else
-	(void)input;
-	(void)config;
-	(void)inputId;
 #endif
 
 	return false;
