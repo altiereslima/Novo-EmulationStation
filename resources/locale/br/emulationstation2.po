@@ -1496,7 +1496,7 @@ msgid "RATING"
 msgstr "AVALIAÇÃO"
 
 #: 
-msgid "TIEMPO JUGADO"
+msgid "TIMES PLAYED"
 msgstr "TEMPO JOGADO"
 
 #: 
