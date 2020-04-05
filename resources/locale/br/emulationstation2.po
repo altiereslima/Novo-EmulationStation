@@ -475,7 +475,7 @@ msgstr "OPÇÕES DE JOGOS"
 
 #: 
 msgid "GAME RATIO"
-msgstr "FORMATO DE JOGO"
+msgstr "PROPORÇÃO DO JOGO"
 
 #: 
 msgid "SMOOTH GAMES"
@@ -1009,7 +1009,7 @@ msgstr "NENHUMA ATUALIZAÇÃO DISPONÍVEL"
 
 #: 
 msgid "enter emulator"
-msgstr "INSIRAO EMULADOR"
+msgstr "INSIRA O EMULADOR"
 
 #: 
 msgid "enter core"
@@ -1017,11 +1017,11 @@ msgstr "INSIRA O NÚCLEO"
 
 #: 
 msgid "Ratio"
-msgstr "TAXA"
+msgstr "PROPORÇÃO"
 
 #: 
 msgid "enter ratio"
-msgstr "INSIRA A TAXA"
+msgstr "INSIRA A PROPORÇÃO"
 
 #: 
 msgid "Name"
@@ -1558,11 +1558,11 @@ msgstr "Selecione o idioma para o seu recalbox, selecione uma unidade externa pa
 
 #: 
 msgid "Configure games display, ratio, filters (shaders), auto save and load and retroachievement account."
-msgstr "Configurar exibição de jogos, taxa, filtros (shaders), auto salvar e carregar e conta retroachievement."
+msgstr "Configurar exibição de jogos, proporção, filtros (shaders), auto salvar e carregar e conta retroachievement."
 
 #: 
 msgid "The game ratio is the ratio between image width and image height. Use AUTO to let the emulator choose the original game ratio, that will give you the best retrogaming experience."
-msgstr "A razão do jogo é a razão entre a largura da imagem e a altura da imagem. Use AUTO para permitir que o emulador escolha a taxa de jogo original, que lhe dará a melhor experiência de retrogaming."
+msgstr "A proporção do jogo é a proporção entre a largura da imagem e a altura da imagem. Use AUTO para permitir que o emulador escolha a taxa de jogo original, que lhe dará a melhor experiência de retrogaming."
 
 #: 
 msgid "Smooth the game image. This option makes the image smoother, using bilinear filtering."
@@ -2183,7 +2183,7 @@ msgstr "LISTA VAZIA"
 
 #: Retroarch ratio
 msgid "Auto"
-msgstr "AUTOMÁTICO"
+msgstr "AUTOMÁTICA"
 
 #: 
 msgid "Square pixel"
