@@ -22,7 +22,7 @@ branches:
 environment:
   _LINK_: /FORCE:MULTIPLE
   auth_token:
-    secure: w2Fy1b7WaFpDL113DC4qCDv9KiR3qRQoednBvANlbZcIS1CwMjnEVyWTTPEXvGCa
+    secure: GD4WDgZNSJbgDsGTWHvZ4aMzd9sQRxOQfxTX2JNLpwHBxOkuCRy7einhFl2hbjtW
   matrix:
     - prepare_mode: YES
     - prepare_mode: NO
@@ -49,8 +49,8 @@ install:
   #- ps: Start-FileDownload 'https://www.dropbox.com/s/0ab2zf0oe7i16i7/emulationstation-dependencies.zip?dl=1' -FileName 'emulationstation-dependencies.zip'
   #- 7z x emulationstation-dependencies.zip -oC:\src\lib > NUL
   # Install SDL2
-  - ps: Start-FileDownload 'https://www.libsdl.org/release/SDL2-2.0.5.zip' -FileName 'SDL2-2.0.5.zip'
-  - 7z x SDL2-2.0.5.zip -oc:\src\lib > NUL
+  - ps: Start-FileDownload 'https://www.libsdl.org/release/SDL2-2.0.9.zip' -FileName 'SDL2-2.0.9.zip'
+  - 7z x SDL2-2.0.9.zip -oc:\src\lib > NUL
   # Install FreeImage
   - ps: Start-FileDownload 'http://downloads.sourceforge.net/freeimage/FreeImage3170.zip' -FileName 'FreeImage3170.zip'
   - 7z x FreeImage3170.zip -oc:\src\lib > NUL
@@ -100,11 +100,11 @@ build_script:
   - nmake /f Makefile.vc mode=dll VC=14 DEBUG=yes
   - nmake /f Makefile.vc mode=dll VC=14 DEBUG=no
   
-  - cd c:\src\lib\SDL2-2.0.5
+  - cd c:\src\lib\SDL2-2.0.9
   - mkdir build
   - cd build
   - cmake -G "Visual Studio 14 2015" ..
-  - cd c:\src\lib\SDL2-2.0.5\build
+  - cd c:\src\lib\SDL2-2.0.9\build
   - '"C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild" SDL2.sln /p:Configuration=Release /p:Platform="Win32"'
   
   - cd c:\src\EmulationStation
@@ -112,29 +112,36 @@ build_script:
   - mkdir build
   - cd build
   - set ES_LIB_DIR=c:\src\lib
-  - cmake -g "Visual Studio 14 2015 x86" .. -DFREETYPE_INCLUDE_DIRS=%ES_LIB_DIR%\freetype-2.7\include -DFREETYPE_LIBRARY=%ES_LIB_DIR%\freetype-2.7\objs\vc2010\Win32\freetype27.lib -DFreeImage_INCLUDE_DIR=%ES_LIB_DIR%\FreeImage\Source -DFreeImage_LIBRARY=%ES_LIB_DIR%\FreeImage\Dist\x32\FreeImage.lib -DSDL2_INCLUDE_DIR=%ES_LIB_DIR%\SDL2-2.0.5\include -DSDL2_LIBRARY=%ES_LIB_DIR%\SDL2-2.0.5\build\Release\SDL2.lib;%ES_LIB_DIR%\SDL2-2.0.5\build\Release\SDL2main.lib;Imm32.lib;version.lib -DCURL_INCLUDE_DIR=%ES_LIB_DIR%\curl-7.50.3\include -DCURL_LIBRARY=%ES_LIB_DIR%\curl-7.50.3\builds\libcurl-vc14-x86-release-dll-ipv6-sspi-winssl\lib\libcurl.lib -DRAPIDJSON_INCLUDE_DIRS=%ES_LIB_DIR%\rapidjson-1.1.0\include -DVLC_INCLUDE_DIR=%ES_LIB_DIR%\libvlc-2.2.2\include -DVLC_LIBRARIES=%ES_LIB_DIR%\libvlc-2.2.2\lib\msvc\libvlc.lib;%ES_LIB_DIR%\libvlc-2.2.2\lib\msvc\libvlccore.lib -DVLC_VERSION=1.0.0 -DSDLMIXER_INCLUDE_DIR=%ES_LIB_DIR%/SDL2_mixer-2.0.4/include -DSDLMIXER_LIBRARY=%ES_LIB_DIR%/SDL2_mixer-2.0.4/lib/x86/SDL2_mixer.lib
+  - cmake -g "Visual Studio 14 2015 x86" .. -DFREETYPE_INCLUDE_DIRS=%ES_LIB_DIR%\freetype-2.7\include -DFREETYPE_LIBRARY=%ES_LIB_DIR%\freetype-2.7\objs\vc2010\Win32\freetype27.lib -DFreeImage_INCLUDE_DIR=%ES_LIB_DIR%\FreeImage\Source -DFreeImage_LIBRARY=%ES_LIB_DIR%\FreeImage\Dist\x32\FreeImage.lib -DSDL2_INCLUDE_DIR=%ES_LIB_DIR%\SDL2-2.0.9\include -DSDL2_LIBRARY=%ES_LIB_DIR%\SDL2-2.0.9\build\Release\SDL2.lib;%ES_LIB_DIR%\SDL2-2.0.9\build\Release\SDL2main.lib;Imm32.lib;version.lib -DCURL_INCLUDE_DIR=%ES_LIB_DIR%\curl-7.50.3\include -DCURL_LIBRARY=%ES_LIB_DIR%\curl-7.50.3\builds\libcurl-vc14-x86-release-dll-ipv6-sspi-winssl\lib\libcurl.lib -DRAPIDJSON_INCLUDE_DIRS=%ES_LIB_DIR%\rapidjson-1.1.0\include -DVLC_INCLUDE_DIR=%ES_LIB_DIR%\libvlc-2.2.2\include -DVLC_LIBRARIES=%ES_LIB_DIR%\libvlc-2.2.2\lib\msvc\libvlc.lib;%ES_LIB_DIR%\libvlc-2.2.2\lib\msvc\libvlccore.lib -DVLC_VERSION=1.0.0 -DSDLMIXER_INCLUDE_DIR=%ES_LIB_DIR%/SDL2_mixer-2.0.4/include -DSDLMIXER_LIBRARY=%ES_LIB_DIR%/SDL2_mixer-2.0.4/lib/x86/SDL2_mixer.lib
   
   - cd c:\src\EmulationStation\build
   - '"C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild" emulationstation-all.sln /p:Configuration=Release /p:Platform="Win32"'
 
   - cd c:\src\EmulationStation
-  - 7z a EmulationStation-Win32.zip C:\src\EmulationStation\Release\*.exe C:\src\EmulationStation\Release\*.exp C:\src\EmulationStation\Release\*.lib
-  - 7z a EmulationStation-Win32.zip C:\src\downloads\vlc-2.2.2\libvlc.dll C:\src\downloads\vlc-2.2.2\libvlccore.dll C:\src\downloads\vlc-2.2.2\plugins
-  - 7z a EmulationStation-Win32.zip C:\src\downloads\SDL2_mixer-2.0.4\*.dll
-  - 7z a EmulationStation-Win32.zip C:\src\lib\SDL2-2.0.5\build\Release\SDL2.dll
-  - 7z a EmulationStation-Win32.zip C:\src\lib\curl-7.50.3\builds\libcurl-vc14-x86-release-dll-ipv6-sspi-winssl\bin\libcurl.dll
-  - 7z a EmulationStation-Win32.zip C:\src\lib\FreeImage\Win32\Release\FreeImage.dll
-  - 7z a EmulationStation-Win32.zip C:\src\EmulationStation\resources
-
-  - 7z a EmulationStation-Win32-no-deps.zip C:\src\EmulationStation\Release\*.exe C:\src\EmulationStation\Release\*.exp C:\src\EmulationStation\Release\*.lib
-  - 7z a EmulationStation-Win32-no-deps.zip C:\src\EmulationStation\resources
+  - IF EXIST locale\lang ( xcopy locale\lang resources\locale /S /Y /I )
   - ps: |
       $version = [System.Diagnostics.FileVersionInfo]::GetVersionInfo("C:\src\EmulationStation\Release\emulationstation.exe").FileVersion -replace ',','.';
       $timestamp = Get-Date -Format "yyyymmddHHmm"
-      Update-AppveyorBuild -Version "$version-$timestamp"
+      Update-AppveyorBuild -Version "$version-$timestamp"  
+      "$version-$timestamp" | Out-File c:\src\EmulationStation\version.info -Encoding ASCII
+  - 7z a EmulationStation-Win32.zip C:\src\EmulationStation\Release\*.exe C:\src\EmulationStation\Release\*.exp C:\src\EmulationStation\Release\*.lib
+  - 7z a EmulationStation-Win32.zip C:\src\downloads\vlc-2.2.2\libvlc.dll C:\src\downloads\vlc-2.2.2\libvlccore.dll C:\src\downloads\vlc-2.2.2\plugins
+  - 7z a EmulationStation-Win32.zip C:\src\downloads\SDL2_mixer-2.0.4\*.dll
+  - 7z a EmulationStation-Win32.zip C:\src\lib\SDL2-2.0.9\build\Release\SDL2.dll
+  - 7z a EmulationStation-Win32.zip C:\src\lib\curl-7.50.3\builds\libcurl-vc14-x86-release-dll-ipv6-sspi-winssl\bin\libcurl.dll
+  - 7z a EmulationStation-Win32.zip C:\src\lib\FreeImage\Win32\Release\FreeImage.dll
+  - 7z a EmulationStation-Win32.zip C:\src\EmulationStation\resources
+  - 7z a EmulationStation-Win32.zip C:\src\EmulationStation\version.info
+
+  - 7z a EmulationStation-Win32-no-deps.zip C:\src\EmulationStation\Release\*.exe C:\src\EmulationStation\Release\*.exp C:\src\EmulationStation\Release\*.lib
+  - 7z a EmulationStation-Win32-no-deps.zip C:\src\EmulationStation\resources
+  - 7z a EmulationStation-Win32-no-deps.zip C:\src\EmulationStation\version.info
+
 on_finish:
   - if %APPVEYOR_REPO_BRANCH%==master c:\dev\ciuploadtool\ciuploadtool.exe -suffix="%APPVEYOR_REPO_BRANCH%" C:\src\EmulationStation\*.zip
+  - if %APPVEYOR_REPO_BRANCH%==master c:\dev\ciuploadtool\ciuploadtool.exe -suffix="%APPVEYOR_REPO_BRANCH%" C:\src\EmulationStation\version.info
   - if %APPVEYOR_REPO_BRANCH%==stable c:\dev\ciuploadtool\ciuploadtool.exe -suffix="%APPVEYOR_REPO_BRANCH%" C:\src\EmulationStation\*.zip
+  - if %APPVEYOR_REPO_BRANCH%==stable c:\dev\ciuploadtool\ciuploadtool.exe -suffix="%APPVEYOR_REPO_BRANCH%" C:\src\EmulationStation\version.info
   #- ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
 
 #platform:
