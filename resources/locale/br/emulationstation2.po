@@ -287,7 +287,7 @@ msgid "WE CAN'T FIND ANY SYSTEMS!\n"
 "\n"
 "VISIT EMULATIONSTATION.ORG FOR MORE INFORMATION."
 msgstr "NENHUM JOGO FOI ENCONTRADO NO SISTEMA!\n"
-"" VERIFIQUE SE SUAS ESTRADAS ESTÃO CORRETAS NO ARQUIVO DE CONFIGURAÇÃO DO SISTEMA E SEU DIRETÓRIO DE JOGOS TEM PELO MENOS UM JOGO COM A EXTENSÃO CORRETA.\n"
+" VERIFIQUE SE SUAS ESTRADAS ESTÃO CORRETAS NO ARQUIVO DE CONFIGURAÇÃO DO SISTEMA E SEU DIRETÓRIO DE JOGOS TEM PELO MENOS UM JOGO COM A EXTENSÃO CORRETA.\n"
 "\n"
 "VISITE EMULATIONSTATION.ORG PARA MAIS INFORMAÇÃO."
 
@@ -831,7 +831,7 @@ msgstr "OBTER VÍDEOS"
 
 #: 
 msgid "SCRAPE NOW"
-msgstr "OBTER DADOS AGORA""
+msgstr "OBTER DADOS AGORA"
 
 #: 
 msgid "QUIT"
@@ -1524,8 +1524,7 @@ msgid "EXTREM (1400Mhz)"
 msgstr "EXTREMO (1400MHz)"
 
 #: 
-msgid ""
-"Show how much space is used on your SHARE partition, located either on the SDCARD or on an external drive. The information shows how much GB are used and how much GB your storage has overall (example 13GB/26GB)."
+msgid "Show how much space is used on your SHARE partition, located either on the SDCARD or on an external drive. The information shows how much GB are used and how much GB your storage has overall (example 13GB/26GB)."
 msgstr "Mostra quanto espaço é usado na sua partição SHARE, localizada no SDCARD ou em uma unidade externa. As informações mostram quantos GB são usados e quantos GB seu armazenamento tem no geral (Exemplo: 13 GB/26 GB)."
 
 #: 
