@@ -2567,7 +2567,7 @@ msgstr "NOME DE USUÁRIO"
 
 #: 
 msgid "LOWER MUSIC WHEN PLAYING VIDEO"
-msgstr "BAXAR MÚSICA QUANDO TOCAR VÍDEO"
+msgstr "BAIXAR MÚSICA QUANDO TOCAR VÍDEO"
 
 #: 
 msgid "BOX 2D"
@@ -2599,7 +2599,7 @@ msgstr "LETREIRO"
 
 #: 
 msgid "SCRAPING IS RUNNING. DO YOU WANT TO STOP IT ?"
-msgstr "A OBTENÇÃO DE DADOS ESTÁ EM EXECUÇÃO. DEJESA PARAR?"
+msgstr "A OBTENÇÃO DE DADOS ESTÁ EM EXECUÇÃO. DESEJA PARAR?"
 
 #: 
 msgid "DEFAULT"
@@ -2631,7 +2631,7 @@ msgstr "MODIFICAR"
 
 #: 
 msgid "SELECTIONNER"
-msgstr "SELECINAR"
+msgstr "SELECIONAR"
 
 #: 
 msgid "FAVORIS"
