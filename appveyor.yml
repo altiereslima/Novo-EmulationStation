@@ -52,7 +52,7 @@ install:
   - ps: Start-FileDownload 'https://www.libsdl.org/release/SDL2-2.0.12.zip' -FileName 'SDL2-2.0.12.zip'
   - 7z x SDL2-2.0.12.zip -oc:\src\lib > NUL
   # Install FreeImage
-  - ps: Start-FileDownload 'http://downloads.sourceforge.net/freeimage/FreeImage3170.zip' -FileName 'FreeImage3170.zip'
+  - ps: Start-FileDownload 'https://src.fedoraproject.org/lookaside/extras/freeimage/FreeImage3170.zip/459e15f0ec75d6efa3c7bd63277ead86/FreeImage3170.zip' -FileName 'FreeImage3170.zip'
   - 7z x FreeImage3170.zip -oc:\src\lib > NUL
   - ps: (Get-Content C:\src\lib\FreeImage\Source\LibTIFF4\tif_config.h).replace('#define snprintf _snprintf', '') | Set-Content C:\src\lib\FreeImage\Source\LibTIFF4\tif_config.h
   # Install FreeType
