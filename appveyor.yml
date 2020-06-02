@@ -118,12 +118,7 @@ build_script:
   - '"C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild" emulationstation-all.sln /p:Configuration=Release /p:Platform="Win32"'
 
   - cd c:\src\EmulationStation
-  - IF EXIST locale\lang ( xcopy locale\lang resources\locale /S /Y /I )
-  - ps: |
-      $version = [System.Diagnostics.FileVersionInfo]::GetVersionInfo("C:\src\EmulationStation\Release\emulationstation.exe").FileVersion -replace ',','.';
-      $timestamp = Get-Date -Format "yyyymmddHHmm"
-      Update-AppveyorBuild -Version "$version-$timestamp"  
-      "$version-$timestamp" | Out-File c:\src\EmulationStation\version.info -Encoding ASCII
+  - xcopy locale\lang resources\locale /S /Y /I
   - 7z a EmulationStation-Win32.zip C:\src\EmulationStation\Release\*.exe C:\src\EmulationStation\Release\*.exp C:\src\EmulationStation\Release\*.lib
   - 7z a EmulationStation-Win32.zip C:\src\downloads\vlc-2.2.2\libvlc.dll C:\src\downloads\vlc-2.2.2\libvlccore.dll C:\src\downloads\vlc-2.2.2\plugins
   - 7z a EmulationStation-Win32.zip C:\src\downloads\SDL2_mixer-2.0.4\*.dll
