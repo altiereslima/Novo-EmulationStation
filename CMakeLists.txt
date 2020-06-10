@@ -57,7 +57,6 @@ endif()
 find_package(Freetype REQUIRED)
 find_package(FreeImage REQUIRED)
 find_package(SDL2 REQUIRED)
-find_package(SDL2MIXER REQUIRED)
 find_package(CURL REQUIRED)
 find_package(VLC REQUIRED)
 find_package(RapidJSON REQUIRED)
@@ -66,11 +65,6 @@ find_package(RapidJSON REQUIRED)
 if(CEC)
     find_package(libCEC REQUIRED)
 endif()
-
-# i18n
-# if(MSVC)
-# 	find_package(Intl REQUIRED)
-# endif()
 
 #add ALSA for Linux
 if(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
@@ -125,25 +119,22 @@ else()
     add_definitions(-DUSE_OPENGLES_10)
 endif()
 
+# Enable additional defines for the Debug build configuration
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -D_DEBUG")
+set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -D_DEBUG")
+
 #-------------------------------------------------------------------------------
 #add include directories
 set(COMMON_INCLUDE_DIRS
     ${FREETYPE_INCLUDE_DIRS}
     ${FreeImage_INCLUDE_DIRS}
     ${SDL2_INCLUDE_DIR}
-	${SDLMIXER_INCLUDE_DIR}
     ${CURL_INCLUDE_DIR}
     ${VLC_INCLUDE_DIR}
     ${RAPIDJSON_INCLUDE_DIRS}
     ${CMAKE_CURRENT_SOURCE_DIR}/external
     ${CMAKE_CURRENT_SOURCE_DIR}/es-core/src
 )
-
-# if(MSVC)
-#         LIST(APPEND COMMON_INCLUDE_DIRS
-#             ${Intl_INCLUDE_DIRS}
-#         )
-# endif()
 
 #add libCEC_INCLUDE_DIR
 if(DEFINED libCEC_FOUND)
@@ -197,20 +188,13 @@ endif()
 
 set(COMMON_LIBRARIES
     ${FREETYPE_LIBRARIES}
-    ${FreeImage_LIBRARIES}	
+    ${FreeImage_LIBRARIES}
     ${SDL2_LIBRARY}
-	${SDLMIXER_LIBRARY}
     ${CURL_LIBRARIES}
     ${VLC_LIBRARIES}
     pugixml
     nanosvg
 )
-
-# if(MSVC)
-#         LIST(APPEND COMMON_LIBRARIES
-#             ${Intl_LIBRARIES}
-#         )
-# endif()
 
 #add libCEC_LIBRARIES
 if(DEFINED libCEC_FOUND)
